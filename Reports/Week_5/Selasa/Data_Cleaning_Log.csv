@@ -1,0 +1,24 @@
+No,Kolom,Masalah,Jumlah Baris Terdampak,Solusi,Keterangan
+1,Semua kolom (baris),Baris duplikat (identik persis),200,Dihapus (drop_duplicates),5250 -> 5050 baris
+2,crime_type,Variasi penulisan/typo/singkatan,3758,Distandarkan ke kategori baku,25 kategori final
+3,district,Variasi huruf besar/kecil & singkatan,2571,Distandarkan ke 10 nama distrik baku,10 kategori final
+4,suspect_gender,Nilai kosong / variasi format,1352,Distandarkan ke Male/Female/Other/Unknown; kosong diisi 'Unknown',
+5,victim_gender,Nilai kosong / variasi format,963,Distandarkan ke Male/Female/Other/Unknown; kosong diisi 'Unknown',
+6,suspect_race,Nilai kosong / variasi huruf besar-kecil,1525,Distandarkan ke Title Case; kosong diisi 'Unknown',
+7,weapon_used,Nilai kosong / variasi huruf besar-kecil,930,Distandarkan ke Title Case; kosong diisi 'Unknown',
+8,severity,Kosong + campuran angka & teks,342,Disatukan ke Low/Medium/High/Critical; kosong diisi modus ('Medium'),
+9,case_status,"Kosong + typo ('Investgation','Pendng')",696,Typo diperbaiki; kosong diisi modus ('Closed'),
+10,resolution,Kosong + typo ('Arres Made'),912,Typo diperbaiki; kosong diisi 'Belum Ada Resolusi',
+11,reported_online,"Kosong + campuran format (1/0, Yes/No, True/False)",486,Disatukan jadi boolean; kosong diisi modus (False),
+12,latitude,Kosong + di luar rentang valid -90 s/d 90 (176),427,Diisi median (36.5492),
+13,longitude,Kosong + di luar rentang valid -180 s/d 180 (0),278,Diisi median (-94.6683),
+14,suspect_age,Kosong + usia tidak masuk akal <0 atau >100 (323),1375,Diisi median (46 tahun),
+15,victim_age,Kosong + usia tidak masuk akal <0 atau >100 (389),931,Diisi median (50 tahun),
+16,num_arrests,Kosong + nilai negatif (175),499,Diisi median (2),
+17,property_loss_usd,Kosong + nilai negatif (195),745,Diisi median (24725.40 USD),
+18,incident_datetime,Format tanggal campur-aduk + kosong (329),329,Diseragamkan ke format datetime standar,"329 baris tidak bisa diparse, dibiarkan kosong"
+19,suspect_id/first/last_name,Kosong bersamaan (tanpa tersangka teridentifikasi),775,Diisi label 'Unidentified',
+20,victim_id/first/last_name,Kosong bersamaan (data korban tidak lengkap),248,Diisi label 'Unidentified',
+21,victim_phone,Nomor telepon kosong,1019,Diisi 'Tidak Tersedia',
+22,badge_number,Nomor badge kosong,301,"Dibiarkan kosong (ID unik, bukan besaran statistik)",
+23,notes,Catatan kosong,1028,Diisi 'Tidak ada catatan tambahan.',
