@@ -148,7 +148,7 @@ Materi meliputi:
 
 **Penjelasan Apa itu Big Data dan contohnya**
 
-Link Bloggerr:
+Link Blogger:
 https://artikeldatar.blogspot.com/2026/06/penjelasan-apa-itu-big-data.html
 
 Materi meliputi:
