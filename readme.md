@@ -111,7 +111,10 @@ Sebagai bagian dari proses belajar, saya juga mendokumentasikan berbagai materi 
 
 ### 📖 Artikel 1
 
-**Eksplorasi Dunia Data: Tiga Profesi Utama, Roadmap Belajar, dan Teknologi Bahasa Pemrograman**
+**Pemahaman Tentang Data dan 3 jenis Data**
+
+Link Blogger:
+[https://artikeldatar.blogspot.com/2026/06/data-analyst.html](https://artikeldatar.blogspot.com/2026/06/data-analyst.html)
 
 Membahas:
 
@@ -125,7 +128,10 @@ Membahas:
 
 ### 📖 Artikel 2
 
-**Mengenal Fondasi Data Modern: Dari Big Data, Data Lake hingga Memahami Jenis Data**
+**Memahami Peta 3 Data**
+
+Link Blogger:
+https://artikeldatar.blogspot.com/2026/06/mempelajari-peta-belajar-3-data-analyst.html
 
 Materi meliputi:
 
@@ -140,7 +146,10 @@ Materi meliputi:
 
 ### 📖 Artikel 3
 
-**Mengolah Data Menjadi Kecerdasan Buatan: Machine Learning, Deep Learning, NLP, dan Generative AI**
+**Penjelasan Apa itu Big Data dan contohnya**
+
+Link Bloggerr:
+https://artikeldatar.blogspot.com/2026/06/penjelasan-apa-itu-big-data.html
 
 Materi meliputi:
 
